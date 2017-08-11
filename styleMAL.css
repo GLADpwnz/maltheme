@@ -213,15 +213,14 @@ td#mal_cs_pic{ display:none }
 /*HeaderImage
 ------------------*/
 #list_surround:before{
-	content:"";
+	content:"Обожаю мультики";
 	display:block;
-	background-image:url(images/photo.jpg),url(images/bg.jpg);
-	background-repeat:no-repeat, repeat;
-	background-position:right, center;
-	background-attachment:fixed;
-	height:200px;
+	background: linear-gradient(#00ddfd,#2b518c 80%,#841c7c);
+	height:150px;
 	width:100%;
 	overflow:hidden;
+	font-size: 30px;
+	line-height: 200px;
 	z-index:-1;
 }
 #list_surround > table:nth-of-type(n+4):not(.header_cw):not(.header_completed):not(.header_onhold):not(.header_dropped):not(.header_ptw), .hide{
