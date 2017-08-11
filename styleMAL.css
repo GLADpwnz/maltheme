@@ -255,7 +255,7 @@ table:nth-of-type(n+4):not(.header_cw):not(.header_completed):not(.header_onhold
 	padding:2% 5% 1%;
 	overflow:hidden;
 	text-align:center;
-	font-size:16px;
+	font-size:15px;
 	font-weight:bold;
 }
 .td1, .td2{
@@ -322,16 +322,20 @@ td[width="70"] + .td1:nth-of-type(5), td[width="70"] + .td2:nth-of-type(5){
 	left:0;
 	bottom:0;
 	/*width:28.33333%;*/
-	width:28.35%;
+	width:33.3%;
 	text-align:left;
 	padding-left:5%;
 	background-color: #7d24a2;
+}
+.td1:nth-of-type(3) > a > span:contains("1"), .td2:nth-of-type(3) > a > span:contains("1"){
+	content: "GOVNO";
+	background:blue;
 }
 td[width="50"] + .td1:nth-of-type(5):before, [width="50"] + .td2:nth-of-type(5):before{ content:"Episodes:" }
 td[width="50"] + .td1:nth-of-type(5), td[width="50"] + .td2:nth-of-type(5){
 	right:0;
 	bottom:0;
-	width:61.66666%;
+	width:56.66666%;
 	text-align:right;
 	padding-right:5%;
 }
