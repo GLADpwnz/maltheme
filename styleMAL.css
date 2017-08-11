@@ -215,9 +215,9 @@ td#mal_cs_pic{ display:none }
 #list_surround:before{
 	content:"";
 	display:block;
-	background-image:url(images/bg.jpg), url(images/photo.jpg);
-	background-repeat:repeat, no-repeat;
-	background-position:center, right;
+	background-image:url(images/photo.jpg),url(images/bg.jpg);
+	background-repeat:no-repeat, repeat;
+	background-position:right, center;
 	background-attachment:fixed;
 	height:200px;
 	width:100%;
